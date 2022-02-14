@@ -20,7 +20,7 @@ namespace netcore_sdk_example
                 // Configure Coralogix SDK. You need to define it only once per process.
                 coralogixLogger.Configure("PRIVATE_KEY", "APPLICATION_NAME", "SUBSYSTEM_NAME");
                 //Send "Hello World!" message with severity verbose.
-                coralogixLogger.Log(Severity.Error, "Hello Juan! 10");
+                coralogixLogger.Log(Severity.Error, "Hello World Coralogix");
                 i++;
                 Console.WriteLine("Hello World!");
                 Task.Delay(1000).Wait();

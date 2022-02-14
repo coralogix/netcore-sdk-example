@@ -18,7 +18,7 @@ namespace netcore_sdk_example
                 //logger name will be used as category unless specified otherwise.
                 coralogixLogger = CoralogixLogger.GetLogger("My class");
                 // Configure Coralogix SDK. You need to define it only once per process.
-                coralogixLogger.Configure("111111-1111-11111-1111111-111111", "MyTestApp", "BL");
+                coralogixLogger.Configure("PRIVATE_KEY", "APPLICATION_NAME", "SUBSYSTEM_NAME");
                 //Send "Hello World!" message with severity verbose.
                 coralogixLogger.Log(Severity.Error, "Hello Juan! 10");
                 i++;

@@ -1,7 +1,10 @@
 # Coralogix NetCore SDK Example Project
 
 ## Install:
-Go to your Project and Add CoralogixCoreSDK  nuget package.
+Go to your Project and Add CoralogixCoreSDK nuget package.
+```
+Install-Package CoralogixCoreSDK
+```
 
 ## Configuration:
 
@@ -24,7 +27,7 @@ coralogixLogger.Configure("PRIVATE_KEY", "APPLICATION_NAME", "SUBSYSTEM_NAME");
 >Coralogix supports multiple geo regions and depending on where you account is located, 
 >This part is required only if you are not in the EU region
 >The URL can be provide as an Evironment variable.
-```
+```bash
  CORALOGIX_LOG_URL = 'https://<Cluster_api_URL>:443/api/v1/logs'
 ```
 The options:

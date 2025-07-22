@@ -1,5 +1,5 @@
 # Coralogix NetCore SDK Example Project
-
+## Deprecation Notics: this code will be derecated in favor of [OTEl SDK](https://opentelemetry.io/docs/languages/dotnet/), and will no longer be supported, as of 22.9.2025
 ## Install:
 Go to your Project and Add CoralogixCoreSDK nuget package.
 ```
